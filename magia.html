@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vale dos Unicórnios</title>
+	<title>Magia - Vale dos Unicórnios</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		:root {
@@ -43,7 +43,7 @@
 		}
 
 		.jumbotron-unicorn::after {
-			content: '🦄';
+			content: '✨';
 			position: absolute;
 			right: 7%;
 			bottom: -1.2rem;
@@ -156,39 +156,40 @@
 <body>
 	<nav class="navbar navbar-expand-lg unicorn-nav" aria-label="Navegação principal">
 		<div class="container page-shell">
-			<a class="navbar-brand" href="#inicio">🦄 Vale dos Unicórnios</a>
+			<a class="navbar-brand" href="index.html">🦄 Vale dos Unicórnios</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="menuPrincipal">
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
-					<li class="nav-item"><a class="nav-link" href="magia.html">Magia</a></li>
+					<li class="nav-item"><a class="nav-link active" href="magia.html">Magia</a></li>
 					<li class="nav-item"><a class="nav-link" href="aventura.html">Aventuras</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<main id="inicio" class="container py-4 py-md-5 page-shell">
-		<!-- Linha 1: uma coluna de tamanho 12 -->
+
+	<main class="container py-4 py-md-5 page-shell">
+		<!-- Banner -->
 		<div class="row mb-4">
 			<div class="col-12">
 				<section class="jumbotron-unicorn">
-					<p class="eyebrow mb-2">Um cantinho mágico</p>
-					<h1 class="unicorn-title display-4">Bem-vindo ao Vale dos Unicórnios</h1>
-					<p class="lead mb-0">Onde cada arco-íris guarda uma nova aventura, amizade e muita magia.</p>
+					<p class="eyebrow mb-2">Desvendar os mistérios</p>
+					<h1 class="unicorn-title display-4">O Mundo da Magia</h1>
+					<p class="lead mb-0">Explore os encantamentos e feitiços que tornam o Vale dos Unicórnios um lugar extraordinário.</p>
 				</section>
 			</div>
 		</div>
 
-		<!-- Linha 2: duas colunas de tamanho 6 -->
-		<div id="magia" class="row g-4 mb-4">
+		<!-- Cards de Magia -->
+		<div class="row g-4 mb-5">
 			<div class="col-12 col-md-6">
 				<article class="card sparkle-card h-100">
 					<div class="card-body p-4">
 						<div class="card-icon mb-2">🌈</div>
-						<h2 class="h4">Arco-íris brilhantes</h2>
-						<p class="mb-0">Cores mágicas atravessam o céu e iluminam o caminho dos visitantes.</p>
+						<h2 class="h4">Arco-íris Brilhantes</h2>
+						<p class="mb-0">Cores mágicas que atravessam o céu e iluminam o caminho dos visitantes, criando portais para dimensões encantadas.</p>
 					</div>
 				</article>
 			</div>
@@ -196,67 +197,63 @@
 				<article class="card sparkle-card mint h-100">
 					<div class="card-body p-4">
 						<div class="card-icon mb-2">✨</div>
-						<h2 class="h4">Pó de estrela</h2>
-						<p class="mb-0">Uma pitada de encanto para transformar momentos comuns em memórias especiais.</p>
+						<h2 class="h4">Pó de Estrela</h2>
+						<p class="mb-0">Uma pitada de encanto para transformar momentos comuns em memórias especiais e duradouras.</p>
 					</div>
 				</article>
 			</div>
 		</div>
 
-		<!-- Linha 3: três colunas de tamanho 4 -->
-		<div id="aventuras" class="row g-4 mb-4">
+		<div class="row g-4 mb-5">
 			<div class="col-12 col-md-4">
 				<article class="card sparkle-card gold h-100">
 					<div class="card-body p-4">
-						<div class="card-icon mb-2">🌸</div>
-						<h2 class="h5">Jardim encantado</h2>
-						<p class="mb-0">Flores que cantam ao amanhecer.</p>
+						<div class="card-icon mb-2">🔮</div>
+						<h2 class="h5">Bola de Cristal</h2>
+						<p class="mb-0">Veja o futuro e as possibilidades infinitas que te aguardam nesta jornada mágica.</p>
 					</div>
 				</article>
 			</div>
 			<div class="col-12 col-md-4">
 				<article class="card sparkle-card h-100">
 					<div class="card-body p-4">
-						<div class="card-icon mb-2">☁️</div>
-						<h2 class="h5">Nuvens de algodão</h2>
-						<p class="mb-0">Passeios leves pelas alturas.</p>
+						<div class="card-icon mb-2">🌙</div>
+						<h2 class="h5">Magia Lunar</h2>
+						<p class="mb-0">A lua cheia revela segredos antigos e amplifica todos os encantamentos do vale.</p>
 					</div>
 				</article>
 			</div>
 			<div class="col-12 col-md-4">
 				<article class="card sparkle-card mint h-100">
 					<div class="card-body p-4">
-						<div class="card-icon mb-2">💎</div>
-						<h2 class="h5">Caverna de cristais</h2>
-						<p class="mb-0">Segredos preciosos esperam por você.</p>
+						<div class="card-icon mb-2">🪄</div>
+						<h2 class="h5">Varinha Mágica</h2>
+						<p class="mb-0">Com a varinha certa, qualquer feitiço soa perfeito e todo desejo se torna possível.</p>
 					</div>
 				</article>
 			</div>
 		</div>
 
-		<!-- Linha 4: colunas de tamanho 4 e 8 -->
-		<div class="row g-4">
-			<div class="col-12 col-md-4">
-				<article class="card sparkle-card gold h-100">
-					<div class="card-body p-4">
-						<p class="section-label">Amigo do dia</p>
-						<h2 class="h4">Luna, a unicórnio lilás</h2>
-						<p class="mb-0">Curiosa, gentil e especialista em encontrar estrelas cadentes.</p>
-					</div>
-				</article>
-			</div>
+		<div class="row g-4 mb-5">
 			<div class="col-12 col-md-8">
 				<article class="card sparkle-card h-100">
 					<div class="card-body p-4 p-md-5">
-						<p class="section-label">Mensagem mágica</p>
-						<h2 class="h3">Acredite no extraordinário</h2>
-						<p class="mb-0">Todo dia pode ser uma aventura quando você mantém o coração aberto para a magia, a amizade e as pequenas maravilhas do caminho.</p>
+						<p class="section-label">Feitiço do Dia</p>
+						<h2 class="h3">Encantamento da Amizade</h2>
+						<p class="mb-0">Este antigo feitiço fortalece os laços entre amigos e cria conexões eternamente brilhantes. Sussurre este mantra enquanto segura a mão de quien você ama: "Por amizade verdadeira e coração puro, que nossa conexão seja sempre perdurável."</p>
+					</div>
+				</article>
+			</div>
+			<div class="col-12 col-md-4">
+				<article class="card sparkle-card mint h-100">
+					<div class="card-body p-4">
+						<p class="section-label">Sortilégio Protetor</p>
+						<h2 class="h5">Escudo Luminoso</h2>
+						<p class="mb-0">Um feitiço defensivo que envolve você em luz pura e mantém a negatividade bem longe.</p>
 					</div>
 				</article>
 			</div>
 		</div>
-
-		<p class="footer-note text-center mt-4 mb-0">Feito com brilho, sonhos e um pouquinho de arco-íris.</p>
 	</main>
 
 	<!-- Footer -->
@@ -295,6 +292,7 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
